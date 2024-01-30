@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(45deg,rgb(9, 243, 114),rgb(34, 4, 4));
+}
+#container{
+    width: 300px;
+    height: 40px;
+    background-image: linear-gradient(75deg,rgb(216, 18, 28),rgb(48, 19, 212));
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 5px solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    text-shadow: 3px 3px 3px black;
+}
+#range
+{
+    height: 30px;
+    width:90%;
+}
